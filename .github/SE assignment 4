@@ -1,0 +1,63 @@
+                        Questions: Introduction to GitHub:
+
+1. What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development. Repositories on GitHub:
+GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time. The primary function and feature of GitHub revolve around hosting and managing Git repositories, which are central to its role in collaborative software development.
+
+2. What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it. Version Control with Git: 
+Github repository is a place where you get to store you codes, files, and also the file's revision history. it can also have multiple collaborators and it can be hosted either in a public or in private way.
+Once you are logged into github, there is a icon with a plus sign that is used to create a new repository. You then get to setup by giving it a name and a description. You choose if it should be viewed by everyone or be private. Then you initialize the repository with the option of having a README file. lastly you click the create repository button and you have a repository.
+
+Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers? Branching and Merging in GitHub:
+Version control concept on Git tracks changes that are made to a file overtime, thus allowing other people to g back to the previous versions, compare changes, merge updates from different people.
+
+What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch. Pull Requests and Code Reviews:
+A branch in Github is a version of the repository that comes from the main code and thus can be worked on independently. it enhances the version control system. It is important since it facilitates collaboration through parallel development. Once a branch has been created and changes are made and completed, an individual then gets to commit the changes and merging it to the main branch through a pull request.
+
+What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request. GitHub Actions:
+A pull request the the art of merging branches to the main branch. A pull request allows an individual to propose changes from one branch to another.
+
+Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions. Introduction to Visual Studio:
+GitHub Actions is a powerful automation feature built into GitHub that lets you design custom workflows for your repository. These workflows can be used to automate a wide range of processes, including continuous integration (CI), continuous deployment (CD), and testing.
+
+What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code? Integrating GitHub with Visual Studio:
+This is a software (Integrated Development Environment IDE) that is used to edit, debug and build code the push it to an application.
+Visual studio is a desktop application unlike github which is a web-based application.
+Visual studio is tailored to individual developers unlike Github provides version control and it is tailored to collaboration by different developers. 
+
+Describe the steps to integrate a GitHub repository with Visual Studio. How does this integration enhance the development workflow? Debugging in Visual Studio:
+You can manage your GitHub projects straight from the IDE by integrating a GitHub repository with Visual Studio. This creates a smooth workflow for development, version control, and collaboration. 
+
+Explain the debugging tools available in Visual Studio. How can developers use these tools to identify and fix issues in their code? Collaborative Development using GitHub and Visual Studio:
+A full suite of debugging tools is provided by Visual Studio to assist developers in finding, analyzing, and resolving problems with their code. These tools come with a robust feature set for efficient debugging and support a large number of programming languages. 
+1. Breakpoints
+Standard Breakpoints: Pause program execution at a specific line of code. 
+Conditional Breakpoints: Break only when a specific condition is met (e.g., a variable equals a certain value). 
+Hit Count Breakpoints: Break only after the breakpoint has been hit a certain number of times.
+Function Breakpoints: Break when a specified function is called.
+2. Watch Windows
+Watch Window: Monitor the values of variables and expressions during debugging.
+QuickWatch: A temporary Watch window for quickly evaluating expressions. 
+3. Locals and Autos Windows
+Locals Window: Displays local variables in the current scope and their values.
+Autos Window: Automatically shows variables and expressions related to the current statement and the previous statement.
+4. Call Stack
+Call Stack Window: Shows the list of function calls leading to the current point of execution. 
+5. Immediate Window
+Immediate Window: Allows you to execute commands, evaluate expressions, and interact with the application being debugged. 
+6. Output Window
+Output Window: Displays debugging output, build information, and other messages from Visual Studio.
+7. Exception Settings
+Exception Settings Window: Configure how Visual Studio handles exceptions. 
+8. Step Commands
+Step Into (F11): Execute the next line of code, entering any called functions.
+Step Over (F10): Execute the next line of code without entering called functions.
+Step Out (Shift + F11): Execute the rest of the current function and break at the return point.
+9. Data Tips
+Data Tips: Hover over variables during debugging to see their current values. You can also pin Data Tips to keep them visible while you continue debugging.
+10. Edit and Continue
+Edit and Continue: Modify code during a debugging session and apply changes without stopping and restarting the session. 
+
+Discuss how GitHub and Visual Studio can be used together to support collaborative development. Provide a real-world example of a project that benefits from this integration.
+GitHub and Visual Studio are powerful tools that, when used together, provide a seamless workflow for collaborative software development. This is achieved through version control, repository management, collaborative features, CI/CD and lastly through code reviews.
+Project Scenario
+Imagine a team is developing a web application for an e-commerce platform. The team consists of front-end developers, back-end developers, and QA engineers. 
